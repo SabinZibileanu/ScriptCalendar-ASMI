@@ -43,7 +43,7 @@ def obtine_zile_nastere(path_df, luna, departament):
         
 
 lista_departamente_pozitii = ['Alumn', 'CD', 'Design', 'Edu', 'HR', 'MF']
-
+luna = input("Introdu luna: ")
 for poz in lista_departamente_pozitii:
     path_df = poz + '.csv'
-    obtine_zile_nastere(path_df, 8, poz)
+    obtine_zile_nastere(path_df, luna, poz)
